@@ -1,0 +1,46 @@
+.likecard-container{
+    display :flex;
+    flex-direction: column;
+    margin: 1rem;
+    flex-basis: 24%;
+
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* border: solid */
+    border-radius: 15px;
+    padding: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.likecard-container .avatar-pic {
+    margin-bottom: 1rem;    
+    /* width: 50%; */
+}
+
+.likecard-container .brief {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.likecard-container .brief .line{
+    width: 100%;
+    height: 0.5px;
+    border-top: 1px dashed black;
+    /* background-color: black; */
+}
+
+.likecard-container .name {
+    color: #ff477e;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.likecard-container .proff {
+    /* color: #ff477e; */
+    font-weight: 500;
+    font-size: 1.5vw;
+}

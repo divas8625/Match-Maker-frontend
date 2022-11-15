@@ -1,0 +1,30 @@
+/* .profile-section .profile-pic img {
+  width: 20%;
+  object-fit: cover;
+  border-radius: 50%;
+} */
+.profile-container{
+    font-family: 'Roboto';
+  }
+  .profile-container .pic-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-container .detail-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    
+  }
+  .btns .edit-btn{
+    background-color:  #EA0A84;
+    border: none;
+    color: white;
+  }
+  .btns .delete-btn{
+    border: 2px solid #EA0A84;
+  }
